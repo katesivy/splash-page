@@ -118,32 +118,29 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <picture>
-            <source media="(max-width: 500px)" srcset="firefoxlogo120.png">
-            <source media="(min-width: 501px)" srcset="firefoxlogo400.png">
-            <img src="firefoxlogo400.png" alt="Fire Fox Logo">
-          </picture>
-           
+          <img srcset="firefoxlogo120.png 120w, firefoxlogo400.png 400w"
+                sizes="(max-width: 500px), 120px, 400px" 
+                src="firefoxlogo400.png" alt="Fire Fox Logo">   
         </a>
+
         <a href="https://www.mozilla.org/">
-            <picture>
-                <source media="(max-width: 500px)" srcset="dinosaurhead120.png">
-                <source media="(min-width: 501px)" srcset="dinosaurhead400.png">
-                <img src="dinosaurhead400.png" alt="Dinosaur Head">
-              </picture>
+            <img srcset="dinosaurhead120.png 120w, dinosaurhead400.png 400w"
+                sizes="(max-width: 500px), 120px, 400px" 
+                src="dinosaurhead400.png" alt="Dinosaur Head">
         </a>
+        
         <a href="https://addons.mozilla.org/">
-            <picture>
-                <source media="(max-width: 500px)" srcset="firefoxaddons120.png">
-                <source media="(min-width: 501px)" srcset="firefoxaddons400.png">
-                <img src="firefoxaddons400.png" alt="Fire Fox Add Ons">
-              </picture>
+            <img srcset="firefoxaddons120 120w, firefoxaddons400.png 400w"
+                sizes="(max-width: 500px), 120px, 400px" 
+                src="firefoxaddons400.png" alt="Fire Fox Add Ons">
         </a>
+       
         <a href="https://developer.mozilla.org/en-US/">
-          <picture>
-            <img src="mdn.svg" alt="Fire Fox">
-          </picture>
+            <img srcset="mdn.svg" 
+                sizes="(max-width: 500px), 120px, 400px" 
+                src="firefoxlogo400.png" alt="Fire Fox">
         </a>
+        
         <div class="clearfix"></div>
       </div>
 
